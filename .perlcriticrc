@@ -1,4 +1,7 @@
-# i now use default settings and override using ##no critic, but adds some more.
+# i now use default settings and override using ##no critic, but adds some more
+# policies.
+
+verbose=9
 
 # 2020-12-22 - only now i found out why checking for $@ is unreliable: because
 # object destructor (DESTROY) can contain eval and that resets our $@. see
