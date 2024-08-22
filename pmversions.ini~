@@ -78,9 +78,6 @@ App::github::cmd=0.003
 ; current_branch in info
 App::GitUtils=0.004
 
-; export var
-App::imgsize=0.006
-
 ; deps has --module, rdeps has --dist
 App::lcpan=1.066
 
