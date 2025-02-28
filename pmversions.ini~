@@ -164,6 +164,9 @@ Bencher=1.041
 Bencher::Backend=1.062
 
 ; latest
+Berdikari::Parse::DeliveryReceipt::Common=0.002
+
+; latest
 BorderStyle=3.0.0
 
 ; latest
@@ -388,8 +391,9 @@ Data::TableData::Object::hash=0.116
 ; transmute_object & recurse_object options
 Data::Transmute=0.039
 
-; split, join, splice, count (1.571), sortsub allows passing argument to sorter (1.572)
-Data::Unixish=1.572
+; latest bugfixes
+Data::Unixish=1.574
+Data::Unixish::bool=1.574
 
 ; compare()
 Date::TimeOfDay=0.003
@@ -464,6 +468,9 @@ File::Create::Layout=0.060
 
 ; allow algorithm=Digest to use all Digest::* modules
 File::Digest=0.009
+
+; latest bugfix
+File::FindUniq=0.002
 
 ; mode option, handle()
 File::Flock::Retry=0.631
