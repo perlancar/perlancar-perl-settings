@@ -393,6 +393,7 @@ Data::Transmute=0.039
 
 ; latest bugfixes
 Data::Unixish=1.574
+Data::Unixish::Apply=1.574
 Data::Unixish::bool=1.574
 
 ; compare()
