@@ -470,8 +470,8 @@ File::Create::Layout=0.060
 ; allow algorithm=Digest to use all Digest::* modules
 File::Digest=0.009
 
-; latest bugfix
-File::FindUniq=0.002
+; {uniq,dupe}_filenames_between_two_dirs
+File::FindUniq=0.004
 
 ; mode option, handle()
 File::Flock::Retry=0.631
@@ -1158,6 +1158,9 @@ Text::Wrap::NoStrip=0.002
 Time::Local=1.27
 
 Tree::Create::Callback::ChildrenPerLevel=0.03
+
+; for Acme::CPANModules::OrderedHash
+Tree::RB::XS=0.19
 
 ; get_children_method option
 Tree::ToTextLines=0.05
