@@ -498,6 +498,9 @@ File::Trash::Undoable=0.230
 ; latest
 File::Util::DirList=0.002
 
+; latest bugfix
+File::Util::Sort=0.010
+
 ; latest fix for get_user_tempdir()
 File::Util::Tempdir=0.032
 
