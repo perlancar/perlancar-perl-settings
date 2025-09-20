@@ -1136,6 +1136,9 @@ Text::CSV=1.91
 ; minify_ascii
 Text::Minify::XS=0.5.4
 
+; latest
+Text::Safer=0.003
+
 ; follow Text::Table::Tiny 1.00 interface, title option becomes caption
 Text::Table::Any=0.111
 
